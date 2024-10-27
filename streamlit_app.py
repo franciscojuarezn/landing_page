@@ -35,7 +35,7 @@ st.markdown(f'''
 </div>
 ''', unsafe_allow_html=True)
 
-st.subheader("LMP Pitching Stats", divider='gray')
+st.subheader("Lanzadores LMP", divider='gray')
 ball_image = "baseball_2.jpg"
 
 ball_image_encoded = get_base64_image(ball_image)
@@ -61,7 +61,7 @@ st.markdown(f'''
 </div>
 ''', unsafe_allow_html=True)
 
-st.subheader("Bullpen usage", divider='gray')
+st.subheader("Uso del Bullpen", divider='gray')
 team_image = "bullpen.jpg"
 
 team_image_encoded = get_base64_image(team_image)
