@@ -2,7 +2,7 @@ import streamlit as st
 import base64
 
 st.title("Estadísticas Liga Arco Mexicana del Pacífico")
-st.write("¿Qué quieres explorar el día de hoy?:")
+st.write("¿Qué quieres explorar hoy?:")
 
 def get_base64_image(image_path):
     with open(image_path, "rb") as img_file:
